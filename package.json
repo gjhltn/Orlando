@@ -1,0 +1,15 @@
+{
+  "name": "@gjhltn/orlando",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/gjhltn/orlando.git",
+  "author": "(gjhltn <guyjohnhilton@gmail.com>)",
+  "license": "unlicensed",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "devr": "yarn workspage @gjhltn/reader next dev"
+  }
+}
